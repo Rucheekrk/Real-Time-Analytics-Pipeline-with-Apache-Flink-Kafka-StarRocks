@@ -1,4 +1,4 @@
-# 🚀 Real-Time Analytics Pipeline using Apache Flink & StarRocks
+# 🚀 Real-Time Analytics Pipeline using Apache Flink, Kafka & StarRocks
 
 A fully containerized, real-time data analytics pipeline for clickstream processing. Built with **Apache Flink**, **StarRocks**, **Kafka**, **MySQL**, **Debezium**, **dbt**, and **Docker Compose**.
 
