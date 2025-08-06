@@ -45,3 +45,25 @@ A fully containerized, real-time data analytics pipeline for clickstream process
 
 ## 📂 Directory Structure
 
+real-time-analytics-pipeline/
+├── docker-compose.yml           # Orchestrates all services
+├── kafka-producer/              # Python script to simulate clickstream events
+│   └── producer.py
+├── flink-job/                   # Flink job code (JAR or PyFlink)
+│   └── flink_job.py
+├── debezium/                    # Debezium connector config
+│   └── register-mysql-source.json
+├── mysql/                       # MySQL DDL/init scripts
+│   └── init.sql
+├── starrocks/                   # StarRocks DDL or init scripts
+│   └── create_tables.sql
+├── dbt_models/                  # dbt project with star schema models
+│   ├── models/
+│   ├── dbt_project.yml
+│   └── profiles.yml
+├── assets/                      # Images, diagrams, etc.
+│   └── data_pipeline_diagram.png
+├── .gitignore
+├── LICENSE
+└── README.md
+
