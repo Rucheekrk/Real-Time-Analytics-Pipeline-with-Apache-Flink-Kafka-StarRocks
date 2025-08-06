@@ -1,0 +1,13 @@
+execution:
+  planner: blink
+  type: batch
+  result-mode: table
+
+deployment:
+  response-timeout: 5000
+
+modules:
+  - core
+
+jar-paths:
+  - file:///opt/flink/lib/flink-connector-starrocks-1.2.8_flink-1.17.jar
