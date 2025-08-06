@@ -6,8 +6,6 @@ A fully containerized, real-time data analytics pipeline for clickstream process
 
 ## 📊 Architecture
 
-![Architecture Diagram](./assets/data_pipeline_diagram.png)
-
 **Components:**
 - 🐍 **Python Kafka Producer** – Simulates ~10K events/min
 - 🛸 **Apache Kafka** – Event streaming backbone
